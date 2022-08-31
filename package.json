@@ -1,0 +1,54 @@
+{
+  "name": "@company/components",
+  "version": "1.16.0",
+  "description": "some fake description",
+  "repository": {
+    "type": "git",
+    "url": "idk"
+  },
+  "type": "module",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:prod": "NODE_ENV=production webpack --config config/webpack.config.cjs",
+    "build:dev": "NODE_ENV=development webpack --config config/webpack.config.cjs"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@fortawesome/free-brands-svg-icons": "5.15.4",
+    "@fortawesome/pro-duotone-svg-icons": "5.15.4",
+    "@fortawesome/pro-light-svg-icons": "5.15.4",
+    "@fortawesome/pro-regular-svg-icons": "5.15.4",
+    "@fortawesome/pro-solid-svg-icons": "5.15.4",
+    "@mui/material": "^5.10.3",
+    "@mui/styles": "^5.10.3",
+    "@mui/system": "^5.10.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "date-fns": "2.27.0"
+  },
+  "peerDependenciesMeta": {
+    "date-fns": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
