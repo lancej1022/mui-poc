@@ -24,11 +24,6 @@
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
-    "@fortawesome/free-brands-svg-icons": "5.15.4",
-    "@fortawesome/pro-duotone-svg-icons": "5.15.4",
-    "@fortawesome/pro-light-svg-icons": "5.15.4",
-    "@fortawesome/pro-regular-svg-icons": "5.15.4",
-    "@fortawesome/pro-solid-svg-icons": "5.15.4",
     "@mui/material": "^5.10.3",
     "@mui/styles": "^5.10.3",
     "@mui/system": "^5.10.3"
